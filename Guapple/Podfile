@@ -1,0 +1,35 @@
+platform :ios, '9.0'
+use_frameworks!
+inhibit_all_warnings!
+
+target 'Guapple' do
+    pod 'RxSwift', '~> 3.1'
+    pod 'SnapKit', '~> 3.0.2'
+    
+    pod 'React', :path => './node_modules/react-native', :subspecs => [
+        'Core',
+        'DevSupport', 
+        'RCTText',
+        'RCTNetwork',
+        'RCTWebSocket', 
+    ]
+    pod "Yoga", :path => "./node_modules/react-native/ReactCommon/yoga"
+end
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        if target.name == 'RxSwift'
+            target.build_configurations.each do |config|
+                if config.name == 'Debug'
+                    config.build_settings['OTHER_SWIFT_FLAGS'] ||= ['-D', 'TRACE_RESOURCES']
+                end
+            end
+        end
+        target.build_configurations.each do |config|
+            config.build_settings['SWIFT_VERSION'] = '3.0'
+            config.build_settings['EXPANDED_CODE_SIGN_IDENTITY'] = ""
+            config.build_settings['CODE_SIGNING_REQUIRED'] = "NO"
+            config.build_settings['CODE_SIGNING_ALLOWED'] = "NO"
+        end
+    end
+end

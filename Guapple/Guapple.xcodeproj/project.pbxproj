@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		660F448CBC3F1877A9D0203B /* Pods_Guapple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86728D8A6148C4EDE5FC54BB /* Pods_Guapple.framework */; };
+		D50323CC1F3AE6A700CA1EDB /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50323CB1F3AE6A700CA1EDB /* JavaScriptCore.framework */; };
+		D5D182A21F3ACEAE00B8FA77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D182A11F3ACEAE00B8FA77 /* AppDelegate.swift */; };
+		D5D182A41F3ACEAE00B8FA77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D182A31F3ACEAE00B8FA77 /* ViewController.swift */; };
+		D5D182A71F3ACEAE00B8FA77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D182A51F3ACEAE00B8FA77 /* Main.storyboard */; };
+		D5D182A91F3ACEAE00B8FA77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5D182A81F3ACEAE00B8FA77 /* Assets.xcassets */; };
+		D5D182AC1F3ACEAE00B8FA77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D182AA1F3ACEAE00B8FA77 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		D5D182ED1F3ADD0400B8FA77 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		86728D8A6148C4EDE5FC54BB /* Pods_Guapple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Guapple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8BFAA8E6EE7FF0F7FE7FC3A /* Pods-Guapple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guapple.release.xcconfig"; path = "Pods/Target Support Files/Pods-Guapple/Pods-Guapple.release.xcconfig"; sourceTree = "<group>"; };
+		B3DA2EA62EC2B8CA4908434C /* Pods-Guapple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guapple.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Guapple/Pods-Guapple.debug.xcconfig"; sourceTree = "<group>"; };
+		D50323CB1F3AE6A700CA1EDB /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		D5D1829E1F3ACEAE00B8FA77 /* Guapple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Guapple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D182A11F3ACEAE00B8FA77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5D182A31F3ACEAE00B8FA77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5D182A61F3ACEAE00B8FA77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5D182A81F3ACEAE00B8FA77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5D182AB1F3ACEAE00B8FA77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5D182AD1F3ACEAE00B8FA77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5D1829B1F3ACEAE00B8FA77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50323CC1F3AE6A700CA1EDB /* JavaScriptCore.framework in Frameworks */,
+				660F448CBC3F1877A9D0203B /* Pods_Guapple.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8970FDF03E50CF8F3451C179 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3DA2EA62EC2B8CA4908434C /* Pods-Guapple.debug.xcconfig */,
+				A8BFAA8E6EE7FF0F7FE7FC3A /* Pods-Guapple.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D23DBCD58E9CDA42CC4716E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D50323CB1F3AE6A700CA1EDB /* JavaScriptCore.framework */,
+				86728D8A6148C4EDE5FC54BB /* Pods_Guapple.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5D182951F3ACEAE00B8FA77 = {
+			isa = PBXGroup;
+			children = (
+				D5D182A01F3ACEAE00B8FA77 /* Guapple */,
+				D5D1829F1F3ACEAE00B8FA77 /* Products */,
+				8970FDF03E50CF8F3451C179 /* Pods */,
+				D23DBCD58E9CDA42CC4716E4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D5D1829F1F3ACEAE00B8FA77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5D1829E1F3ACEAE00B8FA77 /* Guapple.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5D182A01F3ACEAE00B8FA77 /* Guapple */ = {
+			isa = PBXGroup;
+			children = (
+				D5D182B31F3ADC4C00B8FA77 /* Libraries */,
+				D5D182A11F3ACEAE00B8FA77 /* AppDelegate.swift */,
+				D5D182A31F3ACEAE00B8FA77 /* ViewController.swift */,
+				D5D182A51F3ACEAE00B8FA77 /* Main.storyboard */,
+				D5D182A81F3ACEAE00B8FA77 /* Assets.xcassets */,
+				D5D182AA1F3ACEAE00B8FA77 /* LaunchScreen.storyboard */,
+				D5D182AD1F3ACEAE00B8FA77 /* Info.plist */,
+			);
+			path = Guapple;
+			sourceTree = "<group>";
+		};
+		D5D182B31F3ADC4C00B8FA77 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5D1829D1F3ACEAE00B8FA77 /* Guapple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D182B01F3ACEAE00B8FA77 /* Build configuration list for PBXNativeTarget "Guapple" */;
+			buildPhases = (
+				09E9E5674D222C05E62D6C60 /* [CP] Check Pods Manifest.lock */,
+				D5D1829A1F3ACEAE00B8FA77 /* Sources */,
+				D5D1829B1F3ACEAE00B8FA77 /* Frameworks */,
+				D5D1829C1F3ACEAE00B8FA77 /* Resources */,
+				0B4B33B436705D52F89AA47E /* [CP] Embed Pods Frameworks */,
+				54B1066CB3BDBA8FB96A85B3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+				D5D182ED1F3ADD0400B8FA77 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Guapple;
+			productName = Guapple;
+			productReference = D5D1829E1F3ACEAE00B8FA77 /* Guapple.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5D182961F3ACEAE00B8FA77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Desgard_Duan;
+				TargetAttributes = {
+					D5D1829D1F3ACEAE00B8FA77 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = DNL5G5M9A8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D5D182991F3ACEAE00B8FA77 /* Build configuration list for PBXProject "Guapple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5D182951F3ACEAE00B8FA77;
+			productRefGroup = D5D1829F1F3ACEAE00B8FA77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5D1829D1F3ACEAE00B8FA77 /* Guapple */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5D1829C1F3ACEAE00B8FA77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D182AC1F3ACEAE00B8FA77 /* LaunchScreen.storyboard in Resources */,
+				D5D182A91F3ACEAE00B8FA77 /* Assets.xcassets in Resources */,
+				D5D182A71F3ACEAE00B8FA77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09E9E5674D222C05E62D6C60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0B4B33B436705D52F89AA47E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Guapple/Pods-Guapple-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54B1066CB3BDBA8FB96A85B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Guapple/Pods-Guapple-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5D1829A1F3ACEAE00B8FA77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D182A41F3ACEAE00B8FA77 /* ViewController.swift in Sources */,
+				D5D182A21F3ACEAE00B8FA77 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D5D182A51F3ACEAE00B8FA77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5D182A61F3ACEAE00B8FA77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5D182AA1F3ACEAE00B8FA77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5D182AB1F3ACEAE00B8FA77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5D182AE1F3ACEAE00B8FA77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5D182AF1F3ACEAE00B8FA77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5D182B11F3ACEAE00B8FA77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3DA2EA62EC2B8CA4908434C /* Pods-Guapple.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DNL5G5M9A8;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Guapple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"RxSwift\"",
+					"-framework",
+					"\"SnapKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Desgard.Guapple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_VERSION = 3.0;
+				SYSTEM_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		D5D182B21F3ACEAE00B8FA77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8BFAA8E6EE7FF0F7FE7FC3A /* Pods-Guapple.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DNL5G5M9A8;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Guapple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"RxSwift\"",
+					"-framework",
+					"\"SnapKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Desgard.Guapple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_VERSION = 3.0;
+				SYSTEM_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5D182991F3ACEAE00B8FA77 /* Build configuration list for PBXProject "Guapple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D182AE1F3ACEAE00B8FA77 /* Debug */,
+				D5D182AF1F3ACEAE00B8FA77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D182B01F3ACEAE00B8FA77 /* Build configuration list for PBXNativeTarget "Guapple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D182B11F3ACEAE00B8FA77 /* Debug */,
+				D5D182B21F3ACEAE00B8FA77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5D182961F3ACEAE00B8FA77 /* Project object */;
+}

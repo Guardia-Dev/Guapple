@@ -1,0 +1,6 @@
+framework module Pods_Guapple {
+  umbrella header "Pods-Guapple-umbrella.h"
+
+  export *
+  module * { export * }
+}
